@@ -131,4 +131,35 @@ public class TestSudokuSolver
     assertArrayEquals(solved, solver.solve().asIntArray());
   }
 
+  @Test
+  public void worldsMostDifficult()
+  {
+    Integer solved[][] = {
+        { 1,  4,  5,  3,  2,  7,  6,  9,  8 },  
+        { 8,  3,  9,  6,  5,  4,  1,  2,  7 },  
+        { 6,  7,  2,  9,  1,  8,  5,  4,  3 },  
+        { 4,  9,  6,  1,  8,  5,  3,  7,  2 },  
+        { 2,  1,  8,  4,  7,  3,  9,  5,  6 },  
+        { 7,  5,  3,  2,  9,  6,  4,  8,  1 },  
+        { 3,  6,  7,  5,  4,  2,  8,  1,  9 },  
+        { 9,  8,  4,  7,  6,  1,  2,  3,  5 },  
+        { 5,  2,  1,  8,  3,  9,  7,  6,  4 }};
+
+
+    Integer problem[][] = {
+        { -1, -1,  5,  3, -1, -1, -1, -1, -1 },
+        {  8, -1, -1, -1, -1, -1, -1,  2, -1 },
+        { -1,  7, -1, -1,  1, -1,  5, -1, -1 },
+        {  4, -1, -1, -1, -1,  5,  3, -1, -1 },
+        { -1,  1, -1, -1,  7, -1, -1, -1,  6 },
+        { -1, -1,  3,  2, -1, -1, -1,  8, -1 },
+        { -1,  6, -1,  5, -1, -1, -1, -1,  9 },
+        { -1, -1,  4, -1, -1,  1, -1,  3, -1 },
+        { -1, -1, -1, -1, -1,  9,  7, -1, -1 }};
+    
+    Sudoku sudoku = new Sudoku(problem);
+    SudokuSolver solver = new SudokuSolver(sudoku); 
+    assertArrayEquals(solved, solver.solve().asIntArray());
+  }
+  
 }
