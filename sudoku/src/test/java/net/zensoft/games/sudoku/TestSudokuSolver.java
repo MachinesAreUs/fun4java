@@ -7,6 +7,11 @@ import net.zensoft.games.sudoku.SudokuSolver;
 
 import org.junit.Test;
 
+/**
+ * Test cases of varying complexity for SudokuSolver
+ * 
+ * @author Agustín Ramos
+ */
 public class TestSudokuSolver 
 {
   

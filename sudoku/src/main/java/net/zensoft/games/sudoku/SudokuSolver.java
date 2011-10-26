@@ -58,7 +58,7 @@ public class SudokuSolver {
     return list.get(0);
   }
   
-  private List<CellValue> tail(List<CellValue> candidates) {
+  private <T> List<T> tail(List<T> candidates) {
     return candidates.subList(1, candidates.size());
   }
 

@@ -4,7 +4,6 @@ repositories {
 }
 
 dependencies {
-  compile "commons-collections:commons-collections:3.2.1"    
   compile "com.googlecode.lambdaj:lambdaj:2.3.1"
 }
 
