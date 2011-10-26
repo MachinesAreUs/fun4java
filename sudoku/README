@@ -1,8 +1,9 @@
 
-Sudoku game solver.
+Sudoku game solver
+------------------
 
-Example of the use of the functional style within an OO languaje.
-It uses lambdaj library to process collections in a functional, but
-strictly speaking, it could have been done without it.
+Example of the use of the functional programming style within the java language.
+It uses lambdaj library to process collections in a functional, but strictly
+speaking, it could have been done without it.
 
 
