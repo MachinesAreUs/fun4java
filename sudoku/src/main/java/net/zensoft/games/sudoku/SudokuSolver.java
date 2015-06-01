@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * Implements a backtracking algorithm to solve Sudoku games.
  * 
- * @author Agustín Ramos
+ * @author AgustÃ­n Ramos
  */
 public class SudokuSolver {
 

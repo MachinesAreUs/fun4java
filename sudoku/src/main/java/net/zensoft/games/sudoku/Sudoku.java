@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * Represents a Sudoku game
  * 
- * @author Agustín Ramos
+ * @author AgustÃ­n Ramos
  *
  */
 public class Sudoku {

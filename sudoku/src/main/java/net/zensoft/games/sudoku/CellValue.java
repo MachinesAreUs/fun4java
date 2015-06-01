@@ -3,7 +3,7 @@ package net.zensoft.games.sudoku;
 /**
  * Represents a cell solution in a Sudoku board.
  * 
- * @author Agustín Ramos
+ * @author AgustÃ­n Ramos
  */
 public class CellValue {
   
